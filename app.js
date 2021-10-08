@@ -5,8 +5,6 @@ var express = require("express"),
 app.listen(port);
 
 console.log("zappn running on port " + port);
-	
-
 
 app.get("/ping", (req, res, next) => {
 
